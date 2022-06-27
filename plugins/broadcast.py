@@ -14,7 +14,7 @@ from modules.database.dbqueue import get_active_chats
 from modules.config import BOT_USERNAME as uname
 
 
-@Client.on_message(command(["broadcast", f"broadcast@{uname}"]) & ~filters.edited)
+@Client.on_message(command(["اذاعة", f"broadcast@{uname}"]) & ~filters.edited)
 @errors
 @sudo_users_only
 async def broadcast_message_nopin(c: Client, message: Message):
