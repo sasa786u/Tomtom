@@ -1,4 +1,4 @@
-# Bikash Aditya // @BikashHalder
+# ahmedtom // new music
 import os
 import aiofiles
 import aiohttp
@@ -101,7 +101,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Bikash & Aditya Halder (@BikashHalder @AdityaHalder)",
+        f"Powered By: Tom & Ahmed (@UU_333 )",
         (255, 255, 255),
         font=font,
     )
@@ -111,7 +111,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", ".play", "bgt", "!play", "play", "@", "#", "$"])
+    commandpro(["/play", ".play", "bgt", "!play", "play", "@", "#", "$", "تشغيل", "شغل", "توم", "حبيبه"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -121,7 +121,7 @@ async def play(_, message: Message):
     global que
     global useer
     await message.delete()
-    lel = await message.reply("**🔎 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 ...**")
+    lel = await message.reply("**🔎 جاري البحث يا زميلي ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -129,7 +129,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Bikash_Player"
+        user.first_name = "Tom_Player"
     usar = user
     wew = usar.id
     try:
@@ -141,19 +141,19 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💥 𝐀𝐭🤞𝐅𝐢𝐫𝐬𝐭 🥀 𝐌𝐚𝐤𝐞 ♥️ 𝐌𝐞 ⭐ 𝐀𝐝𝐦𝐢𝐧 😎 ...**")
+                        "**💥 ارفعوني ادمن الاول**")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 😎 𝐈🤞𝐚𝐦 🥀 𝐑𝐞𝐚𝐝𝐲 ♥️ 𝐓𝐨 ⭐ 𝐏𝐥𝐚𝐲 😎 ... 𝐔𝐬𝐞 📢 /play, .play, bgt, !play, play, @, #, $ **")
+                        message.chat.id, "** 😎 𝐈🤞يلا انا جاهز علشان اشغل الاوامر اهي 📢 /play, .play, bgt, !play, play, @, #, $, تشغيل, شغل, توم, حبيبه **")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🥀 𝐏𝐥𝐞𝐚𝐬𝐞 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🌺 𝐀𝐝𝐝 𝐁𝐠𝐭 [𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭](t.me/{ASSISTANT_USERNAME}) 🎸 𝐢𝐧 𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩 ♥️ 𝐎𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 [𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ](https://t.me/{OWNER_USERNAME}) ✨ **")
+                        f"**🥀 من فضلك ضيف [𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭](t.me/{ASSISTANT_USERNAME}) 🎸في هذا الجروب ♥️ 𝐎𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 [𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ](https://t.me/{OWNER_USERNAME}) ✨ **")
     try:
         await USER.get_chat(chid)
     except:
@@ -176,7 +176,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/99d0261f0aa5512ad6753.jpg"
+        thumb_name = "https://telegra.ph//file/cdcf6e35335e7a01f0948.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -252,8 +252,8 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 🇧𝐆𝐓 🇨𝐇𝐀𝐍𝐍𝐄𝐋 🌺",
-                            url=f"https://t.me/BikashGedgetsTech")
+                            text="😎 Tom 🇨𝐇𝐀𝐍𝐍𝐄𝐋 🌺",
+                            url=f"https://t.me/Tom01255")
                    
                 ]
             ]
@@ -261,7 +261,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/99d0261f0aa5512ad6753.jpg"
+            thumb_name = "https://telegra.ph//file/cdcf6e35335e7a01f0948.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -282,8 +282,8 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"https://t.me/kaalxd")
+                            text="😎 dev.Tom 🌺",
+                            url=f"https://t.me/UU_333")
                    
                 ]
             ]
@@ -300,7 +300,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**🤖 𝐆𝐢𝐯𝐞 🙃 𝐌𝐮𝐬𝐢𝐜 💿 𝐍𝐚𝐦𝐞 😍\n💞 𝐓𝐨 🔊 𝐏𝐥𝐚𝐲 🥀 𝐒𝐨𝐧𝐠 🌷...**"
+                "**🤖 اكتب 🙃 اسم 💿 اغنيه 😍\n💞  🔊 لتشغيلها 🥀 🙈 🌷...**"
             )
         await lel.edit("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
         query = message.text.split(None, 1)[1]
@@ -327,7 +327,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🔊 𝐌𝐮𝐬𝐢𝐜 😕 𝐍𝐨𝐭 📵 𝐅𝐨𝐮𝐧𝐝❗️\n💞 𝐓𝐫𝐲 ♨️ 𝐀𝐧𝐨𝐭𝐡𝐞𝐫 🌷...**"
+                "**🔊 الاغنيه 😕 غير 📵 موجوده❗️\n💞 جرب ♨️ غيرها 🌷...**"
             )
             print(str(e))
             return
@@ -350,8 +350,8 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
+                            text="😎 dev.Tom 🌺",
+                            url=f"https://t.me/UU_333")
                    
                 ]
             ]
@@ -397,28 +397,28 @@ async def play(_, message: Message):
     return await lel.delete()
     
     
-@Client.on_message(commandpro(["pause", ".pause", "/pause", "!pause"]) & other_filters)
+@Client.on_message(commandpro(["توقف", ".توقف", "/pause", "!pause"]) & other_filters)
 @errors
 @authorized_users_only
 async def pause(_, message: Message):
     await message.delete()
     await clientbot.pytgcalls.pause_stream(message.chat.id)
-    await message.reply_text("**▶️ 𝐏𝐚𝐮𝐬𝐞𝐝 🌷 ...**"
+    await message.reply_text("**▶️ توقف 🌷 ...**"
     )
 
 
-@Client.on_message(commandpro(["resume", ".resume", "/resume", "!resume"]) & other_filters)
+@Client.on_message(commandpro(["استمرار", ".resume", "/resume", "!resume"]) & other_filters)
 @errors
 @authorized_users_only
 async def resume(_, message: Message):
     await message.delete()
     await clientbot.pytgcalls.resume_stream(message.chat.id)
-    await message.reply_text("**⏸ 𝐑𝐞𝐬𝐮𝐦𝐞𝐝 🌷 ...**"
+    await message.reply_text("**⏸ استمرار 🌷 ...**"
     )
 
 
 
-@Client.on_message(commandpro(["skip", ".skip", "/skip", "!skip"]) & other_filters)
+@Client.on_message(commandpro(["تخطي", ".skip", "/skip", "!skip"]) & other_filters)
 @errors
 @authorized_users_only
 async def skip(_, message: Message):
@@ -449,7 +449,7 @@ async def skip(_, message: Message):
 
 
 
-@Client.on_message(commandpro(["end", "/end", "!end", ".end", "stop", "/stop", ".stop", "stop", "x"]) & other_filters)
+@Client.on_message(commandpro(["end", "/end", "!end", ".end", "stop", "/stop", ".stop", "stop", "x", "ايقاف"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
@@ -460,7 +460,7 @@ async def stop(_, message: Message):
         pass
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
-    await message.reply_text("**❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 🌷 ...**"
+    await message.reply_text("**❌ تم الايقاف 🌷 ...**"
     )
 
 
