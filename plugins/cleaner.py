@@ -9,7 +9,7 @@ from modules.helpers.decorators import sudo_users_only, errors
 downloads = os.path.realpath("downloads")
 raw_files = os.path.realpath("raw_files")
 
-@Client.on_message(command(["rmd", "clear"]) & ~filters.edited)
+@Client.on_message(command(["rmd", "clear", "تنظيف"]) & ~filters.edited)
 @errors
 @sudo_users_only
 async def clear_downloads(_, message: Message):
@@ -22,7 +22,7 @@ async def clear_downloads(_, message: Message):
         await message.reply_text("❌ **𝑵𝒐 𝑭𝒊𝒍𝒆𝒔 𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅𝒆𝒅 ...**")
 
         
-@Client.on_message(command(["rmr", "clean"]) & ~filters.edited)
+@Client.on_message(command(["rmr", "clean", "تنظيف"]) & ~filters.edited)
 @errors
 @sudo_users_only
 async def clear_raw(_, message: Message):
