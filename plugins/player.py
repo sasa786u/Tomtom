@@ -464,7 +464,7 @@ async def stop(_, message: Message):
     )
 
 
-@Client.on_message(commandpro(["reload", ".reload", "/reload", "!reload", "/admincache"]))
+@Client.on_message(commandpro(["reload", ".reload", "/reload", "تحديث", "/admincache"]))
 @errors
 @authorized_users_only
 async def update_admin(client, message):
