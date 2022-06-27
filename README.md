@@ -1,38 +1,69 @@
-### Best Smart Voice Chat Music Robot For Telegram Groups ...
+##### https://t.me/Tom01255
 
+<p align="center"><a href="https://t.me/Tom01212bot"><img src="https://github.com/ahmedtom/new-music"></a></p>
+<p align="center">
+    <br><b>Video Stream is an Advanced Telegram Bot that's allow you to play Video & Music on Telegram Group Video Chat</b><br>
+</p>
+<p align="center">
+    <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
+    
 
-<p align="center"><a href="https://t.me/BikashHalder"><img src="https://te.legra.ph/file/99d0261f0aa5512ad6753.jpg"></a></p>
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@UU_333/StringSession#main.py) ``Pyrogram``
 
-## Telegram 🏪
+## 🎭 Preview
+<p align="center">
+  <img src="https://telegra.ph//file/cdcf6e35335e7a01f0948.jpg">
+</p>
 
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/BGT_Chat)
+## ✨ Features
+- Music & Video stream support
+- MultiChat support
+- Playlist & Queue support
+- Skip, Pause, Resume, Stop feature
+- Music & Video downloader feature
+- Inline Search support
+- YouTube direct search support
+- YouTube/Local/Live/m3u8 stream support
+- Inline Search support
+- Control With Button support
+- Volume Control
+- Userbot Auto Join
+- Direct Updater
 
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Bikashgedgetstech)
+|
 
-## YouTube 📺
+## Heroku Deployment 💜
+The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
-[YouTube Channel](https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg)
-
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ahmedtom/new-music.git)
 
 ### Deploy On OkTeto
 
 [![Deploy+On+Okteto](https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto)](https://cloud.okteto.com/deploy?repository=https://github.com/IAMBIKASHHALDER/bgtxmusicbot)
 
+## VPS Deployment 📡
+Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
 
-### Deploy To Heroku
+```sh
+sudo apt update && apt upgrade -y
+sudo apt install git curl python3-pip ffmpeg -y
+pip3 install -U pip
+curl -sL https://deb.nodesource.com/setup_16.x | bash -
+sudo apt-get install -y nodejs
+npm i -g npm
+git clone https://github.com/ahmedtom/Tom-Music # clone the repo.
+cd video-stream
+pip3 install -U -r requirements.txt
+cp example.env .env # use vim to edit ENVs
+vim .env # fill up the ENVs (Steps: press i to enter in insert mode then edit the file. Press Esc to exit the editing mode then type :wq! and press Enter key to save the file).
+python3 main.py # run the bot.
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/IambikashHalder/bgtxmusicbot)
+# continue the host with screen or anything else, thanks for reading.
+```
 
+# Credits 💖
 
-
-### Get String Session
-
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@AdityaHalder/StringSession)
-
-
-
-#### Copy Pasters You Can Copy This But Must Give Credits ...
-
-### Owner Of This Repository
-[![Bikash Halder](https://te.legra.ph/file/840fed0100164af249bb8.jpg)](https://t.me/BikashHalder)
+- [Tom](https://github.com/tom011500976/Tom-musicly.git) ``Dev``
+### Developer & Source 🎑
+<a href="https://t.me/UU_333"><img src="https://img.shields.io/badge/To communicate-with the developer-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Tom01255"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+></a>
