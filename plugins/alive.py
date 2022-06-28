@@ -85,7 +85,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "سورس", "/repo", "bikash", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph//file/cdcf6e35335e7a01f0948.jpg",
+        photo=f"https://telegra.ph/file/b8284daeb2a4826cb6ca4.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -94,7 +94,7 @@ async def help(client: Client, message: Message):
                         "💥 𝐂𝐥𝐢𝐜𝐤 𝐌𝐞 𝐓𝐨 dev 💞", url=f"http://t.me/UU_333")
                 ],[
                     InlineKeyboardButton(
-                        "💥 𝐂𝐥𝐢𝐜𝐤 𝐌𝐞 𝐓𝐨 channel 💞", url=f"http://t.me/Tom01255")
+                        "💥 𝐂𝐥𝐢𝐜𝐤 𝐌𝐞 𝐓𝐨 channel 💞", url=f"http://t.me/VN_444")
                 ]
             ]
         ),
