@@ -51,14 +51,16 @@ async def start_(client: Client, message: Message):
     reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "🥇 اضفني الى مجموعتك 🥇", url=f"https://t.me/{me_bot.username}?startgroup=true")
+                    InlineKeyboardButton("🥇  Dev.Naytrogen  🥇", url=f"https://t.me/a3_d57")
+                       
                 ],[
                     InlineKeyboardButton(
                         "💥 𝐂𝐥𝐢𝐜𝐤 𝐌𝐞 𝐓𝐨 dev 💞", url=f"http://t.me/UU_333")
                ],[
                     InlineKeyboardButton(
                         "💥 Channel source 💞", url=f"http://t.me/VN_444") 
+               ],[
+                    InlineKeyboardButton("🥇 اެضفني اެݪى مجمۅعتَك 🥇", url=f"https://t.me/{me_bot.username}?startgroup=true")
                ]
                 
            ]
