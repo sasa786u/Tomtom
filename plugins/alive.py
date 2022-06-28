@@ -52,7 +52,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ❱ ➕", url=f"https://t.me/{me_bot.username}?startgroup=true")
+                        "🥇 اضفني الى مجموعتك 🥇", url=f"https://t.me/{me_bot.username}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
                         "💥 𝐂𝐥𝐢𝐜𝐤 𝐌𝐞 𝐓𝐨 dev 💞", url=f"http://t.me/UU_333")
