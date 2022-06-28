@@ -59,9 +59,6 @@ async def start_(client: Client, message: Message):
                ],[
                     InlineKeyboardButton(
                         "💥 Channel source 💞", url=f"http://t.me/VN_444") 
-               ],[
-                    InlineKeyboardButton(
-                        "🥇 اެضفني اެݪى مجمۅعتَك 🥇", url=f"https://t.me/{me_bot.username}?startgroup=true")
                ]
                 
            ]
