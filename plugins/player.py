@@ -111,7 +111,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", ".play", "bgt", "!play", "play", "@", "#", "$", "تشغيل", "شغل", "توم", "حبيبه"])
+    commandpro(["/play", ".play", "bgt", "!play", "play", "@", "#", "$", "تشغيل", "شغل", "توم", "حبيبه" ,"فينوم" ])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -252,8 +252,8 @@ async def play(_, message: Message):
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 Tom 🇨𝐇𝐀𝐍𝐍𝐄𝐋 🌺",
-                            url=f"https://t.me/Tom01255")
+                            text="😎 Venom 🇨𝐇𝐀𝐍𝐍𝐄𝐋 🌺",
+                            url=f"https://t.me/VN_444")
                    
                 ]
             ]
