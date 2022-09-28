@@ -1,6 +1,6 @@
 ##### https://t.me/Tom01255
 
-<p align="center"><a href="https://t.me/Tom01212bot"><img src="https://github.com/ahmedtom/new-music"></a></p>
+<p align="center"><a href="https://t.me/Tom01212bot"><img src="https://github.com/sasa786u/Tomtom"></a></p>
 <p align="center">
     <br><b>Video Stream is an Advanced Telegram Bot that's allow you to play Video & Music on Telegram Group Video Chat</b><br>
 </p>
@@ -63,7 +63,7 @@ python3 main.py # run the bot.
 
 # Credits 💖
 
-- [Tom](https://github.com/tom011500976/Tom-musicly.git) ``Dev``
+- [Tom](https://github.com/sasa786u/Tomtom.git) ``Dev``
 ### Developer & Source 🎑
 <a href="https://t.me/UU_333"><img src="https://img.shields.io/badge/To communicate-with the developer-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Tom01255"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 ></a>
